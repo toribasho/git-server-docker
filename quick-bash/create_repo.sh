@@ -17,7 +17,7 @@ mv myrepo.git $2
 
 rm -rf $myrepo
 
-git clone git clone ssh://git@127.0.0.1:2222/git-server/repos/$myrepo.git
+git clone ssh://git@127.0.0.1:2222/git-server/repos/$myrepo.git
 
 echo "Done"
 
