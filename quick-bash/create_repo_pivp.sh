@@ -23,7 +23,7 @@ scp -r $myrepo.git tori@192.9.200.190:$local_repo_path/$sub_repo_path
 rm $myrepo.git
 rm -rf $myrepo
 
-git clone ssh://git@127.0.0.1:2222/git-server/repos/$sub_repo_path/$myrepo.git
+git clone ssh://git@192.9.200.190:2222/git-server/repos/$sub_repo_path/$myrepo.git
 
 echo "Done"
 
