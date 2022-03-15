@@ -27,7 +27,7 @@ USER root
 # DOWNLOAD REPO
 RUN \
     cd /sintez/sintez/build && \
-    git clone ssh://git@192.9.200.190:2222/git-server/repos/pivp/crystal/$REPO_NAME.git
+    git clone ssh://git@192.9.200.190:2222/git-server/repos/pivp/main/$REPO_NAME.git
 
 #
 # DOWNLOAD CODE FROM SVN
