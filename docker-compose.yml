@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 services:
 
@@ -10,6 +10,5 @@ services:
     ports:
       - "2222:22"
     volumes:
-    - /home/tori/workspace/docker/docker_files/keys:/git-server/keys
-    - /home/tori/workspace/docker/docker_files/repos:/git-server/repos
-
+    - /media/tori/541c6833-3172-4b9f-a747-4d48ec0483c3/repo/git_repo/keys:/git-server/keys
+    - /media/tori/541c6833-3172-4b9f-a747-4d48ec0483c3/repo/git_repo/repos:/git-server/repos
